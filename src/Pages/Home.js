@@ -4,6 +4,7 @@ import Hero from "../Component/Hero/hero";
 import img1 from "../assest/photo-1472214103451-9374bd1c798e.avif";
 import Destination from "../Component/Destination/Destination";
 import Trip from "../Component/Trip/Trip";
+import Footer from "../Component/Footer/Footer";
 function Home() {
   return (
     <div>
@@ -19,6 +20,7 @@ function Home() {
       />
       <Destination />
       <Trip />
+      <Footer />
     </div>
   );
 }
