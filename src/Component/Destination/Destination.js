@@ -15,6 +15,7 @@ import Katra from "../../assest/katra.jpeg";
 import Katra1 from "../../assest/katra1.jpeg";
 import "./Destination.css";
 import DestinationData from "./DestinationData";
+import { Link } from "react-router-dom";
 function Destination() {
   return (
     <div className="destination">
@@ -29,15 +30,17 @@ function Destination() {
         surrounded by majestic peaks and lush meadows. The Mandakini River flows
         nearby, adding to the serene atmosphere.{" "}
       </p>
-      <DestinationData
-        cName={"first-dest"}
-        title={"Kedarnath Temple"}
-        heading={
-          "The heart of Kedarnath is the ancient Kedarnath Temple, an impressivestone structure that dates back over a thousand years. The temple isdedicated to Lord Kedarnath, an incarnation of Lord Shiva. It is oneof the twelve Jyotirlingas, which are the holiest shrines of LordShiva in India. The temple is renowned for its architectural beautyand spiritual significance. Besides its religious importance, Kedarnath is renowned for its breathtaking natural beauty. It isnestled in the Garhwal Himalayas, surrounded by majestic peaks andlush meadows. The Mandakini River flows nearby, adding to the sereneatmosphere."
-        }
-        img1={kadernath}
-        img2={Kadernath1}
-      />
+      <Link to={"/kadernath"}>
+        <DestinationData
+          cName={"first-dest"}
+          title={"Kedarnath Temple"}
+          heading={
+            "The heart of Kedarnath is the ancient Kedarnath Temple, an impressivestone structure that dates back over a thousand years. The temple isdedicated to Lord Kedarnath, an incarnation of Lord Shiva. It is oneof the twelve Jyotirlingas, which are the holiest shrines of LordShiva in India. The temple is renowned for its architectural beautyand spiritual significance. Besides its religious importance, Kedarnath is renowned for its breathtaking natural beauty. It isnestled in the Garhwal Himalayas, surrounded by majestic peaks andlush meadows. The Mandakini River flows nearby, adding to the sereneatmosphere."
+          }
+          img1={kadernath}
+          img2={Kadernath1}
+        />
+      </Link>
       <DestinationData
         cName={"flex-revers"}
         title={"Badrinath"}
