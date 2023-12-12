@@ -41,33 +41,39 @@ function Destination() {
           img2={Kadernath1}
         />
       </Link>
-      <DestinationData
-        cName={"flex-revers"}
-        title={"Badrinath"}
-        heading={
-          "Badrinath was re-established as a major pilgrimage site by Adi Shankara in the 8th century.[7] In earlier days, pilgrims used to walk hundreds of miles to visit the Badrinath templeThe Badrinath temple is the main attraction in the town. According to legend, Adi Shankaracharya discovered a black stone image of Lord Badrinarayan made of Shaligram stone in the Alaknanda River. He originally enshrined it in a cave near the Tapt Kund hot springs.In the sixteenth century, the King of Garhwal moved the murti to the present temple. The temple is approximately 50 ft (15 m) tall with a small cupola on top, covered with a gold gilt roof. The facade is built of stone, with arched windows. A broad stairway leads up to a tall arched gateway, which is the main entrance. The architecture resembles a Buddhist vihara (temple), with the brightly painted facade also more typical of Buddhist temples.[13] Just inside is the mandapa, a large pillared hall that leads to the garbha grha, or main shrine area. The walls and pillars of the mandapa are covered with intricate carving."
-        }
-        img1={Badri1}
-        img2={Badri2}
-      />
-      <DestinationData
-        cName={"first-dest"}
-        title={"Amarnath Temple"}
-        heading={
-          "The Amarnath Temple is a Hindu shrine located in the Pahalgam tehsil of the Anantnag district of Jammu and Kashmir, India. A cave situated at an altitude of 3,888 m (12,756 ft),about 168 km from Anantnag city, the district headquarters, 141 km (88 mi) from Srinagar, the summer capital of Jammu and Kashmir, reached through either Sonamarg or Pahalgam. It is an important shrine in HinduismThe cave, located in Sind Valley, is surrounded by glaciers, snowy mountains and is covered with snow most of the year, except for a short period in the summer, when it is open to pilgrims. In 1989, pilgrims numbered between 12,000 and 30,000. In 2011, the numbers reached a peak, crossing 6.3 lakh (630,000) pilgrims. In 2018 pilgrims numbered 2.85 lakh (285,000). The annual pilgrimage varies between 20 and 60 days."
-        }
-        img1={Amar1}
-        img2={Amar2}
-      />
-      <DestinationData
-        cName={"flex-revers"}
-        title={"Yamunotri Temple"}
-        heading={
-          "Yamunotri Temple is situated in the western region of Garhwal Himalayas at an altitude of 3,291 metres (10,797 ft) in Uttarkashi district, Uttarakhand.It's just 129 km from Uttarkashi, the main district headquarters. The temple is dedicated to Goddess Yamuna, and has a black marble idol of the goddess.The Yamunotri temple is a full day's journey from Uttarakhand's main towns — Uttarkashi, Rishikesh, Haridwar or Dehradun. The actual temple is only accessible by a 13 kilometres (8.1 mi) trek from the town of Hanuman Chatti and a 6 kilometres (3.7 mi) walk from Janki Chatti; horses or palanquins are available for rent. The hike from Hanuman Chatti to Yamunotri takes in views of a number of waterfalls. There are two trekking routes from Hanuman Chatti to Yamunotri; the one along the right bank proceeds via the Markandeya Tirth, where the sage Markandeya wrote the Markandeya Purana. The other route–which lies on the left bank of the river–goes via Kharsali, from where Yamunotri is a five or six hours climb."
-        }
-        img1={Yam1}
-        img2={Yam2}
-      />
+      <Link to="/badrinath">
+        <DestinationData
+          cName={"flex-revers"}
+          title={"Badrinath"}
+          heading={
+            "Badrinath was re-established as a major pilgrimage site by Adi Shankara in the 8th century.[7] In earlier days, pilgrims used to walk hundreds of miles to visit the Badrinath templeThe Badrinath temple is the main attraction in the town. According to legend, Adi Shankaracharya discovered a black stone image of Lord Badrinarayan made of Shaligram stone in the Alaknanda River. He originally enshrined it in a cave near the Tapt Kund hot springs.In the sixteenth century, the King of Garhwal moved the murti to the present temple. The temple is approximately 50 ft (15 m) tall with a small cupola on top, covered with a gold gilt roof. The facade is built of stone, with arched windows. A broad stairway leads up to a tall arched gateway, which is the main entrance. The architecture resembles a Buddhist vihara (temple), with the brightly painted facade also more typical of Buddhist temples.[13] Just inside is the mandapa, a large pillared hall that leads to the garbha grha, or main shrine area. The walls and pillars of the mandapa are covered with intricate carving."
+          }
+          img1={Badri1}
+          img2={Badri2}
+        />
+      </Link>
+      <Link to={"/amarnath"}>
+        <DestinationData
+          cName={"first-dest"}
+          title={"Amarnath Temple"}
+          heading={
+            "The Amarnath Temple is a Hindu shrine located in the Pahalgam tehsil of the Anantnag district of Jammu and Kashmir, India. A cave situated at an altitude of 3,888 m (12,756 ft),about 168 km from Anantnag city, the district headquarters, 141 km (88 mi) from Srinagar, the summer capital of Jammu and Kashmir, reached through either Sonamarg or Pahalgam. It is an important shrine in HinduismThe cave, located in Sind Valley, is surrounded by glaciers, snowy mountains and is covered with snow most of the year, except for a short period in the summer, when it is open to pilgrims. In 1989, pilgrims numbered between 12,000 and 30,000. In 2011, the numbers reached a peak, crossing 6.3 lakh (630,000) pilgrims. In 2018 pilgrims numbered 2.85 lakh (285,000). The annual pilgrimage varies between 20 and 60 days."
+          }
+          img1={Amar1}
+          img2={Amar2}
+        />
+      </Link>
+      <Link to={"/yamnotri"}>
+        <DestinationData
+          cName={"flex-revers"}
+          title={"Yamunotri Temple"}
+          heading={
+            "Yamunotri Temple is situated in the western region of Garhwal Himalayas at an altitude of 3,291 metres (10,797 ft) in Uttarkashi district, Uttarakhand.It's just 129 km from Uttarkashi, the main district headquarters. The temple is dedicated to Goddess Yamuna, and has a black marble idol of the goddess.The Yamunotri temple is a full day's journey from Uttarakhand's main towns — Uttarkashi, Rishikesh, Haridwar or Dehradun. The actual temple is only accessible by a 13 kilometres (8.1 mi) trek from the town of Hanuman Chatti and a 6 kilometres (3.7 mi) walk from Janki Chatti; horses or palanquins are available for rent. The hike from Hanuman Chatti to Yamunotri takes in views of a number of waterfalls. There are two trekking routes from Hanuman Chatti to Yamunotri; the one along the right bank proceeds via the Markandeya Tirth, where the sage Markandeya wrote the Markandeya Purana. The other route–which lies on the left bank of the river–goes via Kharsali, from where Yamunotri is a five or six hours climb."
+          }
+          img1={Yam1}
+          img2={Yam2}
+        />
+      </Link>
       <DestinationData
         cName={"first-dest"}
         title={"Haridwar"}
