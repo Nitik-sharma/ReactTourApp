@@ -74,24 +74,28 @@ function Destination() {
           img2={Yam2}
         />
       </Link>
-      <DestinationData
-        cName={"first-dest"}
-        title={"Haridwar"}
-        heading={
-          "One of the holiest pilgrimages in India, Haridwar, or the ‘gateway to gods’, is located where Ganga, the sacredest of all Indian rivers, enters the Indo-Gangetic plains. Located at the foothills of the Himalayas, Haridwar is a city of temples and ashrams and its pious ambience envelops everyone. Haridwar is one of the four holy Indian cities that host the Kumbh Mela, a pious gathering of millions of Hindu devotees every 12 years. The Ardh Kumbh is organised here every six years. It also hosts the Kanwar mela every year during the rainy season. The ‘Panch Tirth’ or the five pilgrimages located within the periphery of Haridwar, are Gangadwara (Har Ki Pauri), Kushwart (Ghat), Kankhal, Bilwa Tirtha (Mansa Devi Temple) and Neel Parvat (Chandi Devi). Haridwar serves as the gateway to the Char Dham of Uttarakhand as well. An ancient city, Haridwar's roots are steeped deep in culture and traditions of the ancient Vedic times, and there are several institutions here imparting traditional knowledge of wellness. If you want to know more and experience the ancient methods of healing, there are many certified Ayurvedic clinics in Haridwar that you can visit. Ashrams also offer sessions in Ayurveda, meditation and yoga. Every morning and evening, the ghats (stepped banks of a river) of River Ganga witnesses the blissful Ganga aarti, which attracts devotees and tourists. The evening ritual being more popular, it makes for a mesmeric sight to see the river being venerated with loud and rhythmic chants and tall lamps, their lights lightening up the darkening waters. It is a spectacular sight as thousands of small diyas (earthen lamps) are set afloat on the river. "
-        }
-        img1={Hari1}
-        img2={Hari2}
-      />
-      <DestinationData
-        cName={"flex-revers"}
-        title={"Vrindavan"}
-        heading={
-          "Vrindavan is a historic town located in the northern Indian state of Uttar Pradesh. It holds immense significance in Hinduism as it is believed to be the place where Lord Krishna spent his early years and performed various divine activities. Vrindavan is a major pilgrimage destination for Hindus and is known for its numerous temples, ghats (steps leading to the Yamuna River), and vibrant religious culture. The town is a center of devotion and spirituality, drawing thousands of devotees and tourists who come to experience its religious and cultural heritage. Vrindavan is particularly famous for its colorful festivals, including Holi, which is celebrated with great enthusiasm."
-        }
-        img1={Vrinda}
-        img2={Vrinda1}
-      />
+      <Link to="/haridwar">
+        <DestinationData
+          cName={"first-dest"}
+          title={"Haridwar"}
+          heading={
+            "One of the holiest pilgrimages in India, Haridwar, or the ‘gateway to gods’, is located where Ganga, the sacredest of all Indian rivers, enters the Indo-Gangetic plains. Located at the foothills of the Himalayas, Haridwar is a city of temples and ashrams and its pious ambience envelops everyone. Haridwar is one of the four holy Indian cities that host the Kumbh Mela, a pious gathering of millions of Hindu devotees every 12 years. The Ardh Kumbh is organised here every six years. It also hosts the Kanwar mela every year during the rainy season. The ‘Panch Tirth’ or the five pilgrimages located within the periphery of Haridwar, are Gangadwara (Har Ki Pauri), Kushwart (Ghat), Kankhal, Bilwa Tirtha (Mansa Devi Temple) and Neel Parvat (Chandi Devi). Haridwar serves as the gateway to the Char Dham of Uttarakhand as well. An ancient city, Haridwar's roots are steeped deep in culture and traditions of the ancient Vedic times, and there are several institutions here imparting traditional knowledge of wellness. If you want to know more and experience the ancient methods of healing, there are many certified Ayurvedic clinics in Haridwar that you can visit. Ashrams also offer sessions in Ayurveda, meditation and yoga. Every morning and evening, the ghats (stepped banks of a river) of River Ganga witnesses the blissful Ganga aarti, which attracts devotees and tourists. The evening ritual being more popular, it makes for a mesmeric sight to see the river being venerated with loud and rhythmic chants and tall lamps, their lights lightening up the darkening waters. It is a spectacular sight as thousands of small diyas (earthen lamps) are set afloat on the river. "
+          }
+          img1={Hari1}
+          img2={Hari2}
+        />
+      </Link>
+      <Link to={"/vrindavan"}>
+        <DestinationData
+          cName={"flex-revers"}
+          title={"Vrindavan"}
+          heading={
+            "Vrindavan is a historic town located in the northern Indian state of Uttar Pradesh. It holds immense significance in Hinduism as it is believed to be the place where Lord Krishna spent his early years and performed various divine activities. Vrindavan is a major pilgrimage destination for Hindus and is known for its numerous temples, ghats (steps leading to the Yamuna River), and vibrant religious culture. The town is a center of devotion and spirituality, drawing thousands of devotees and tourists who come to experience its religious and cultural heritage. Vrindavan is particularly famous for its colorful festivals, including Holi, which is celebrated with great enthusiasm."
+          }
+          img1={Vrinda}
+          img2={Vrinda1}
+        />
+      </Link>
       <DestinationData
         cName={"first-dest"}
         title={"Vaishno Devi"}

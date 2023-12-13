@@ -12,6 +12,7 @@ import { GiAirplaneDeparture } from "react-icons/gi";
 import { BsBusFront } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
 import map from "./images/map.png";
+import { Link } from "react-router-dom";
 function Yamnotri() {
   return (
     <div>
@@ -195,9 +196,6 @@ function Yamnotri() {
             not recommended due to the risk of landslides, floods and other
             rain-related issues. Very low temperature and heavy snow makes
             winter an inappropriate season for pilgrimage in Chota Char Dham.
-            <span className=" text-3xl font-semibold text-orange-700 flex items-center justify-center underline">
-              Read more <FaArrowRight size={20} />
-            </span>
           </p>
           <img src={map} alt="map" />
         </div>

@@ -10,6 +10,9 @@ import KadernathInfo from "./Component/Information/Kadernath/KadernathInfo";
 import Badrinath from "./Component/Information/Badrinath/Badrinath";
 import Amarnath from "./Component/Information/Amarnath/Amarnath";
 import Yamnotri from "./Component/Information/Yamnotri/Yamnotri";
+import Haridwar from "./Component/Information/Haridwar/Haridwar";
+import Vrindavan from "./Component/Information/Vrindavan/Vrindavan";
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +26,8 @@ function App() {
         <Route path="/amarnath" element={<Amarnath />} />
         <Route path="/singup" element={<SignUp />} />
         <Route path="/yamnotri" element={<Yamnotri />} />
+        <Route path="/haridwar" element={<Haridwar />} />
+        <Route path="/vrindavan" element={<Vrindavan />} />
       </Routes>
     </div>
   );
